@@ -15,8 +15,7 @@
     max-width: 80%;
     height: 100%;
     margin: 0;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
+    border-radius: 0;
   }
 
   /********************/
@@ -64,6 +63,8 @@
 
   .summary-container {
     gap: 1rem;
+    /* padding: 2rem 4rem 3rem 4rem; */
+    padding: 2rem 3rem 3rem 3rem;
   }
 
   .summary-title {
