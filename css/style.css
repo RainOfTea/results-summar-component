@@ -25,12 +25,11 @@ body {
 .main-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* column-gap: 0.5rem; */
   max-width: 73.8rem;
   height: 51.5rem;
-  border-radius: 2rem;
+  border-radius: 30px;
   overflow: hidden;
-  margin-bottom: 1rem;
+  margin: 0 1rem;
   box-shadow: 1rem 1rem 4rem rgba(43, 141, 233, 0.1);
   transition: var(--default-transition);
 }
@@ -48,11 +47,11 @@ body {
 
   text-align: center;
   color: #fff;
-  border-radius: 2rem;
+  border-radius: 30px;
 
   background-image: linear-gradient(
     to bottom,
-    hsl(252, 100%, 67%),
+    hsl(252, 100%, 63%),
     hsl(241, 81%, 54%)
   );
 
@@ -67,7 +66,7 @@ body {
 .score-container {
   background-image: linear-gradient(
     to bottom,
-    hsla(256, 72%, 46%, 1),
+    hsla(256, 72%, 45%, 1),
     hsla(241, 72%, 46%, 0)
   );
   display: flex;
@@ -88,7 +87,7 @@ body {
 
 .max-score {
   font-size: 1.8rem;
-  color: hsla(0, 0%, 100%, 0.5);
+  color: hsla(0, 0%, 100%, 0.4);
 }
 
 .result-great {
@@ -134,9 +133,9 @@ body {
   gap: 1rem;
   align-items: center;
   padding: 1.5rem 2rem;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   list-style: none;
-  border-radius: 1rem;
+  border-radius: 10px;
 }
 
 .player-score {
@@ -169,7 +168,7 @@ body {
 
 .button-continue {
   width: 100%;
-  height: 5.5rem;
+  height: 5rem;
   border: none;
   border-radius: 9000px;
 
